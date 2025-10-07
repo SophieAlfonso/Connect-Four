@@ -1,6 +1,6 @@
 # Sophie Alfonso UFID 94169614
 # COP3502C Class 11724
-# Lab 5: Connect Four
+# Lab 6: Connect Four
 
 # This function creates the playing board given the number of rows and columns
 def initialize_board(num_rows, num_cols):

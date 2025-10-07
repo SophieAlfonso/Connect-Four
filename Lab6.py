@@ -57,7 +57,7 @@ def check_if_winner(b, col, row, chip_type):
 
 # Define the main function
 def main():
-    height = int(input('What would you like the height of the board to be? '))
+    height = int(input('What would you like the height of the board to be? ')) 
     length = int(input('What would you like the length of the board to be? '))
 
     board  = initialize_board(height, length)
@@ -72,7 +72,7 @@ def main():
 
     while not winner:       # Create a loop that runs until the game ends
         if num % 2 == 1:    # If num is odd, it's player 1's turn
-            col = int(input('Player 1: Which column would you like to choose? '))
+            col = int(input('Player 1: Which column would you like to choose? '))    # Get the column index to place the token
             chip = 'x'
         if num % 2 == 0:    # If num is even, it's player 2's turn
             col = int(input('Player 2: Which column would you like to choose? '))
